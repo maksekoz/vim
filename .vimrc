@@ -32,3 +32,4 @@ imap <C-l> <Esc>:TlistToggle<cr>
 nmap <C-f> <Esc>:NERDTreeToggle<cr>
 vmap <C-f> <Esc>:NERDTreeToggle<cr>
 imap <C-f> <Esc>:NERDTreeToggle<cr>
+let g:clang_close_preview=1

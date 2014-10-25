@@ -2,7 +2,7 @@ set nocompatible
 set splitright
 set number
 set ruler
-set colorcolumn=81
+set colorcolumn=80
 set autoindent
 set cindent
 set smartindent
@@ -33,3 +33,17 @@ nmap <C-f> <Esc>:NERDTreeToggle<cr>
 vmap <C-f> <Esc>:NERDTreeToggle<cr>
 imap <C-f> <Esc>:NERDTreeToggle<cr>
 let g:clang_close_preview=1
+let g:clang_auto_select=1
+let g:clang_complete_auto=0
+let g:clang_complete_copen=1
+let g:clang_hl_errors=1
+let g:clang_periodic_quickfix=0
+let g:clang_snippets=1
+let g:clang_snippets_engine="clang_complete"
+let g:clang_conceal_snippets=1
+let g:clang_exec="clang"
+let g:clang_user_options=""
+let g:clang_use_library=1
+let g:clang_sort_algo="priority"
+let g:clang_complete_macros=1
+let g:clang_complete_patterns=0

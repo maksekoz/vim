@@ -33,6 +33,6 @@ hi Operator        guifg=#005fd7 guibg=NONE    guisp=NONE    gui=NONE   ctermfg=
 hi Label           guifg=#005fd7 guibg=NONE    guisp=NONE    gui=NONE   ctermfg=26   ctermbg=NONE cterm=NONE
 
 hi MatchParen      guifg=#005fd7 guibg=NONE    guisp=NONE    gui=bold   ctermfg=26   ctermbg=NONE cterm=bold
-hi Todo            guifg=NONE    guibg=#ffffd7 guisp=#ffffd7 gui=NONE   ctermfg=NONE ctermbg=230  cterm=NONE
+hi Todo            guifg=#808080 guibg=#ffffd7 guisp=#ffffd7 gui=NONE   ctermfg=244  ctermbg=230  cterm=NONE
 hi Error           guifg=#eeeeee guibg=#d70000 guisp=#d70000 gui=NONE   ctermfg=255  ctermbg=160  cterm=NONE
 

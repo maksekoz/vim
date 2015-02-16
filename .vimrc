@@ -2,12 +2,6 @@ set nocompatible
 set splitright
 set number
 set ruler
-if exists("&colorcolumn")
-    set colorcolumn=79
-else
-    highlight OverLength ctermbg=red ctermfg=white guibg=#592929
-    match OverLength /\%79v.*/
-endif
 set autoindent
 set cindent
 set smartindent
@@ -27,6 +21,12 @@ syntax on
 "colorscheme default
 colorscheme maksek
 set showmatch
+if exists("&colorcolumn")
+    set colorcolumn=79
+else
+    highlight OverLength ctermbg=red ctermfg=white guibg=#592929
+    match OverLength /\%79v.*/
+endif
 " intelligent comments
 set comments=sl:/*,mb:\ *,elx:\ */
 nnoremap <silent> <F5> :let _s=@/<Bar>:%s/\s\+$//e<Bar>:let @/=_s<Bar>:nohl<CR>

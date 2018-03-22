@@ -5,9 +5,9 @@ set ruler
 set autoindent
 set cindent
 set smartindent
-set tabstop=4 " tab width is 4 spaces
-set shiftwidth=4 " indent also with 4 spaces
-set expandtab " expand tabs to spaces
+set tabstop=8 " tab width is 8 spaces
+set shiftwidth=8 " indent also with 8 spaces
+"set expandtab " expand tabs to spaces
 "set textwidth=80
 set smarttab
 set noswapfile
@@ -17,15 +17,17 @@ set history=2000
 set updatetime=0
 set autowriteall
 set t_Co=256
+execute pathogen#infect()
 syntax on
+filetype plugin indent on
 "colorscheme default
 colorscheme maksek
 set showmatch
 if exists("&colorcolumn")
-    set colorcolumn=79
+    set colorcolumn=76
 else
     highlight OverLength ctermbg=red ctermfg=white guibg=#592929
-    match OverLength /\%79v.*/
+    match OverLength /\%76v.*/
 endif
 " intelligent comments
 set comments=sl:/*,mb:\ *,elx:\ */
@@ -49,7 +51,8 @@ let g:clang_exec="clang"
 let g:clang_user_options=""
 let g:clang_auto_user_options=".clang_complete, path"
 let g:clang_use_library=1
-let g:clang_library_path="/usr/lib/llvm-3.4/lib"
+"let g:clang_library_path="/usr/lib/llvm-3.8/lib"
+let g:clang_library_path="/usr/lib/x86_64-linux-gnu/libclang-3.8.so.1"
 let g:clang_sort_algo="priority"
 let g:clang_complete_macros=1
 let g:clang_complete_patterns=0

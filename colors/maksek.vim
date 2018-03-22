@@ -24,15 +24,15 @@ hi SpecialChar     guifg=#005f00 guibg=NONE    guisp=NONE    gui=bold   ctermfg=
 hi Number          guifg=#d70000 guibg=NONE    guisp=NONE    gui=NONE   ctermfg=160  ctermbg=NONE cterm=NONE
 hi Constant        guifg=#d70000 guibg=NONE    guisp=NONE    gui=NONE   ctermfg=160  ctermbg=NONE cterm=NONE
 
-hi Type            guifg=#005fd7 guibg=NONE    guisp=NONE    gui=NONE   ctermfg=26   ctermbg=NONE cterm=NONE
-hi Structure       guifg=#005fd7 guibg=NONE    guisp=NONE    gui=NONE   ctermfg=26   ctermbg=NONE cterm=NONE
-hi StorageClass    guifg=#005fd7 guibg=NONE    guisp=NONE    gui=NONE   ctermfg=26   ctermbg=NONE cterm=NONE
-hi Statement       guifg=#005fd7 guibg=NONE    guisp=NONE    gui=NONE   ctermfg=26   ctermbg=NONE cterm=NONE
-hi Repeat          guifg=#005fd7 guibg=NONE    guisp=NONE    gui=NONE   ctermfg=26   ctermbg=NONE cterm=NONE
-hi Operator        guifg=#005fd7 guibg=NONE    guisp=NONE    gui=NONE   ctermfg=26   ctermbg=NONE cterm=NONE
-hi Label           guifg=#005fd7 guibg=NONE    guisp=NONE    gui=NONE   ctermfg=26   ctermbg=NONE cterm=NONE
+hi Type            guifg=#0087d7 guibg=NONE    guisp=NONE    gui=NONE   ctermfg=32   ctermbg=NONE cterm=NONE
+hi Structure       guifg=#0087d7 guibg=NONE    guisp=NONE    gui=NONE   ctermfg=32   ctermbg=NONE cterm=NONE
+hi StorageClass    guifg=#0087d7 guibg=NONE    guisp=NONE    gui=NONE   ctermfg=32   ctermbg=NONE cterm=NONE
+hi Statement       guifg=#0087d7 guibg=NONE    guisp=NONE    gui=NONE   ctermfg=32   ctermbg=NONE cterm=NONE
+hi Repeat          guifg=#0087d7 guibg=NONE    guisp=NONE    gui=NONE   ctermfg=32   ctermbg=NONE cterm=NONE
+hi Operator        guifg=#0087d7 guibg=NONE    guisp=NONE    gui=NONE   ctermfg=32   ctermbg=NONE cterm=NONE
+hi Label           guifg=#0087d7 guibg=NONE    guisp=NONE    gui=NONE   ctermfg=32   ctermbg=NONE cterm=NONE
 
-hi MatchParen      guifg=#005fd7 guibg=NONE    guisp=NONE    gui=bold   ctermfg=26   ctermbg=NONE cterm=bold
+hi MatchParen      guifg=#0087d7 guibg=NONE    guisp=NONE    gui=bold   ctermfg=32   ctermbg=NONE cterm=bold
 hi Todo            guifg=#808080 guibg=#ffffd7 guisp=#ffffd7 gui=NONE   ctermfg=244  ctermbg=230  cterm=NONE
 hi Error           guifg=#eeeeee guibg=#d70000 guisp=#d70000 gui=NONE   ctermfg=255  ctermbg=160  cterm=NONE
 
